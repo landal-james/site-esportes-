@@ -3,11 +3,11 @@
     display: flex;
     justify-content: space-around;
     padding: 24px 0;
-    background-color: #ff720d;
+    background-color: orange;
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: whitesmoke ;
 }
 
 .titulo-principal {
