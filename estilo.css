@@ -1,0 +1,17 @@
+.cabecalho {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    background-color: #ff720d;
+}
+
+body {
+    background-color: #422006;
+}
+
+.titulo-principal {
+    text-align: center;
+    padding: 12px 0 0 0;
+    color: white;
+}
