@@ -16,20 +16,20 @@ body {
     text-align: center;
     padding: 12px 0 0 0;
     color: rgb(0, 0, 0);
-    background-color: whitesmoke;
+    background-color: #ff720d;
 }
 
 .colunas{
     display: grid;
     padding: 100px 0;
     grid-template-columns: 33% 33% 33%;
-    background-color: whitesmoke;
+    background-color: aqua;
 }
 
 .coluna{
     margin-left: 50px;
     padding: 20px;
-    border: 3px blue;
+    border: 3px solid red;
     border-radius: 20px;
 }
 
@@ -37,14 +37,14 @@ body {
     display: grid;
     padding: 100px 0;
     grid-template-columns: 33% 33% 33%;
-    background-color: red;
+    background-color: rgb(70, 228, 22);
   }
   
   .coluna2{
     
   margin-left: 50px;
   padding: 20px;
-  border: 3px black;
+  border: 3px solid red;
   border-radius: 20px;
   
   }
