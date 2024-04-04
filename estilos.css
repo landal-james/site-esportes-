@@ -31,14 +31,14 @@ body {
     padding: 100px 0;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    background-color: whitesmoke;
+    background-color: rgb(245, 169, 29);
     
   }
 
   .coluna {
     flex: 1;
     padding: 20px;
-    border: 3px solid black;
+    border: 3px solid red;
     border-radius: 20px;
     font-family: var(--fonte-principal);
     width: 50%;
@@ -48,5 +48,5 @@ body {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: whitesmoke;
+    background-color: #ff720d;
 }
