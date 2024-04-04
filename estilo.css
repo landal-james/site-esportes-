@@ -1,3 +1,7 @@
+:root {
+    --fonte-principal: "Open Sans";
+}
+
 .cabecalho {
     text-align: center;
     display: flex;
@@ -14,37 +18,35 @@ body {
     justify-content: space-around;
     display: flex;
     text-align: center;
-    padding: 12px 0 0 0;
+    padding: 15px;
     color: rgb(0, 0, 0);
-    background-color: whitesmoke;
+    background-color: #ff720d;
+    font-family: var(--fonte-principal);
+    font-size: larger;
+    color: white;
 }
+
 
 .colunas{
-    display: grid;
     padding: 100px 0;
-    grid-template-columns: 33% 33% 33%;
-    background-color: whitesmoke;
-}
-
-.coluna{
-    margin-left: 50px;
-    padding: 20px;
-    border: 3px solid black;
-    border-radius: 20px;
-}
-
-.colunas2{
     display: grid;
-    padding: 100px 0;
     grid-template-columns: 33% 33% 33%;
-    background-color:whitesmoke
-  }
-  
-  .coluna2{
+    background-color: rgb(245, 169, 29);
     
-  margin-left: 50px;
-  padding: 20px;
-  border: 3px solid black;
-  border-radius: 20px;
-  
   }
+
+  .coluna {
+    flex: 1;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 20px;
+    font-family: var(--fonte-principal);
+    width: 50%;
+  }
+
+  
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ff720d;
+}
