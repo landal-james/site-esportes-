@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     padding: 24px 0;
-    background-color: #ff720d;
+    background-color: grey;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
     text-align: center;
     padding: 15px;
     color: rgb(0, 0, 0);
-    background-color: #ff720d;
+    background-color: grey;
     font-family: var(--fonte-principal);
     font-size: larger;
     color: white;
