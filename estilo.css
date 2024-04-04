@@ -23,7 +23,7 @@ body {
     display: grid;
     padding: 100px 0;
     grid-template-columns: 33% 33% 33%;
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 .coluna{
@@ -37,7 +37,7 @@ body {
     display: grid;
     padding: 100px 0;
     grid-template-columns: 33% 33% 33%;
-    background-color: rgb(70, 228, 22);
+    background-color:whitesmoke
   }
   
   .coluna2{
